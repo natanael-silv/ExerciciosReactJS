@@ -1,5 +1,14 @@
+import Button from "./Button";
+import "./index.css"
+
 function Exercicio3() {
-	return <h1 className='title'>Exercicio3</h1>
+  return (
+    <div className="btnGroup">
+      <Button className="btnGroup__btn" text="Button1" number="1" />
+      <Button className="btnGroup__btn" text="Button2" number="2" />
+      <Button className="btnGroup__btn" text="Button3" number="3" />
+    </div>
+  );
 }
 
-export default Exercicio3
+export default Exercicio3;

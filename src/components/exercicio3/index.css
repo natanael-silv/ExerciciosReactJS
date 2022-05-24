@@ -1,0 +1,7 @@
+.btnGroup {
+    display: flex;
+    justify-content: center;
+}
+ .btnGroup__btn {
+     margin-right: 10px;
+ }

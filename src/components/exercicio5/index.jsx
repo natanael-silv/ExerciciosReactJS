@@ -1,5 +1,15 @@
+import useState from "React";
+
 function Exercicio5() {
-	return <h1 className='title'>Exercicio5</h1>
+  const animals = ["dog", "cat", "chicken", "cow", "horse"];
+  
+  return (
+    <ul>
+      {animals.map((element) => (
+        <li>{element}</li>
+      ))}
+    </ul>
+  );
 }
 
-export default Exercicio5
+export default Exercicio5;

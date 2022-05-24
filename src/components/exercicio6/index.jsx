@@ -1,5 +1,6 @@
-function Exercicio6() {
-	return <h1 className='title'>Exercicio6</h1>
-}
+import List from './List'
 
+function Exercicio6() {
+	return <List list={["dog🐶", "cat😺", "chicken🐔", "cow🐮","sheep🐑", "horse🐴"]}/>
+}
 export default Exercicio6
